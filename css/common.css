@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/*清除浮动*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clear {
+    clear: both;
+}
+
+/*浮动公共类*/
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*版心*/
+.w {
+    width: 1250px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*链接公共*/
+input,
+h1,
+a {
+    text-decoration: none;
+}
+
+a {
+    color: #343d42;
+}
+
+a:hover {
+    color: #49af4f;
+    z-index: 99;
+}
+
+/*设置无边框下划线*/
+input,
+button {
+    border: 0;
+    outline: none;
+}
+
+/* 头部---------------------- */
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #343d42;
+}
+
+.header .logo img {
+    width: 170px;
+    height: 29px;
+    margin-top: 15px;
+}
+
+.header .w>span {
+    cursor: pointer;
+    float: left;
+    color: #eee;
+    font-size: 16px;
+    line-height: 60px;
+    margin-right: 24px;
+}
+
+/* 课堂 */
+.header .course {
+    position: relative;
+    margin-left: 20px;
+}
+
+.header .course .course1 {
+    display: none;
+    width: 105px;
+    position: absolute;
+    background-color: #fff;
+    line-height: 40px;
+    color: #666;
+    left: -10px;
+    margin-top: -10px;
+    border: .5px solid #f0f0f0;
+}
+
+.header .course .course1 li {
+    margin-left: 10px;
+}
+
+/* 福利 */
+.header .welfare {
+    position: relative;
+}
+
+.header .welfare .ewm {
+    width: 240px;
+    height: 240px;
+    font-size: 14px;
+    color: #333;
+    line-height: 30px;
+    text-align: center;
+    border: .5px solid #f0f0f0;
+    position: absolute;
+    left: -80px;
+}
+
+.header .welfare .ewm img {
+    width: 145px;
+    height: 145px;
+    margin-top: 15px;
+}
+
+.header .welfare .ewm p {
+    font-size: 12px;
+    color: #666;
+    height: 26px;
+    line-height: 26px;
+}
+
+/* 搜索 */
+.header .search {
+    margin: 10px 6px 0 140px;
+    background-color: #444;
+    border-right: none;
+    border-radius: 20px;
+    width: 303px;
+    height: 40px;
+    float: left;
+}
+
+.header .search div {
+    position: relative;
+    font-size: 14px;
+    height: 100%;
+    line-height: 40px;
+    margin-left: 15px;
+    float: left;
+    cursor: pointer;
+    color: #fff;
+}
+
+.header .search input {
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    margin-left: 10px;
+    float: left;
+    color: #aaa;
+    background-color: #444;
+}
+
+.header .search span {
+    display: block;
+    width: 60px;
+    height: 41px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    right: 0;
+    top: -2px;
+    font-size: 14px;
+    background: #49af4f;
+    color: #fff;
+    line-height: 38px;
+    z-index: 2;
+    float: right;
+    text-align: center;
+}
+
+.header .search div ul {
+    display: none;
+    position: absolute;
+    left: -15px;
+    top: 43px;
+}
+
+.header .search div ul li {
+    width: 58px;
+    background-color: #fff;
+    color: #666;
+    text-align: center;
+}
+
+/* 登录 */
+.header .login {
+    font-size: 14px;
+    height: 32px;
+    float: right;
+    margin-top: 16px;
+    color: #fff;
+}
+
+.header .login a,
+.header .login i {
+    margin-right: 15px;
+    color: #fff;
+}
+
+.header .login a:hover {
+    color: #49af4f;
+    ;
+}
+
+/* .header .login a:last-child {
+    margin-right: 0px;
+    z-index: 99;
+} */
+
+.header .login img {
+    border-radius: 15px;
+    vertical-align: middle;
+}
+
+
+
+
+/* 底部------------------------------------- */
+footer {
+    overflow: hidden;
+    background-color: #474443;
+}
+
+footer .footl {
+    width: 702px;
+    height: 148px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+footer .footr {
+    width: 242px;
+    height: 153px;
+    margin-top: 30px;
+}
+
+footer .footl a {
+    color: #fff;
+}
+
+footer .footl p {
+    padding-bottom: 10px;
+}
+
+footer .footl div {
+    margin-top: 10px;
+    color: #999;
+}
+
+.footrt a {
+    width: 111px;
+    height: 32px;
+    display: inline-block;
+    background: url(../img/footer1.png);
+    z-index: 99;
+}
+
+.footrt a:nth-child(2) {
+    background-position: 0 -42px;
+}
+
+.footrb {
+    margin-top: 25px;
+    color: #fff;
+}
+
+.footrb p {
+    margin-left: 80px;
+}
